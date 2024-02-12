@@ -170,6 +170,6 @@ td {
 tbody tr {
   background-color: #fff;
 }
-tbody tr.active {
+tbody tr:nth-child(even) {
   background-color: grey;
 }
